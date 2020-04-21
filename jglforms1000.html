@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <head>
+        <title>
+            JGL Prints Feedback
+        </title>
+        <h1 style="font-family: Arial; color: blue;">JGL Prints Feedback</h1>
+		<div class="link" style="margin-left: 1200px; margin-top: -50px; margin-bottom: 100px;">
+	<a href="https://sites.google.com/view/jglformsolutions/home"><strong>Made with JGL Form Solutions</strong></a>
+	</div>
+        <style>
+            .form{
+                margin-left: 800px;
+                margin-top: 250px;
+				margin-bottom: -200px;
+                background: linear-gradient(to right, darkblue, blue);
+                padding: 45px;
+                width: 100%;
+                max-width: 245px;
+                Margin: 0 auto;
+				border-radius: 5px;
+				border: solid white 3px;
+            
+            }
+
+            body{
+               background-color: dodgerblue;
+            }
+
+            .feedback input{
+                padding: 10px;
+                margin: 25px;
+                
+            }
+
+            .fillout input{
+                width: 100%;
+                min-width: 170px;
+                max-width: 170px;
+				border-radius: 2px;
+				border: solid purple 3px;
+            }
+        </style>
+		
+		<script>
+			function doyodance() {
+			if(document.getElementById('email','feedback','rating').value !=""); {
+			alert('Thank you, your Feedback will be greatly apprieciated.  Press OK/Close to continue.');
+			}
+			}	
+			
+		</script>	
+		
+    </head>
+<body>
+    <div class="form">
+        <form class="feedback" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfbh57kFkqn-7uu1fPGz3Vjj1xcUctabsG57lRbIDyzn1YVcA/formResponse" onsubmit="doyodance()">
+            <h1 style="color: red; font-family: Arial; margin-left: 43px;">Feedback</h1>
+            <div class="fillout">
+        <input type="text" id="email" placeholder="Email" required name="entry.1228779714"><br>
+        <input type="text" id="feedback" placeholder="Feedback" required name="entry.1859946461">
+        <br>
+        <label for="rating" style="margin-left: 52px;">Rate us From 1 to 5</label> 
+    </div>
+        
+        <br>
+         <select style="margin-left: 82.5px; width: 70px;" id="rating" required name="entry.906368502">
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5</option>
+         </select>
+        <br>
+        <input type="submit" style="background-color: lightcoral; margin-left: 85px;">
+        <br>
+        <echo style="margin-left: 7.5px;">Visit our Website: <a style="color: lightblue;" href="https://sites.google.com/view/jglshop/home">JGL 3D PRINTS</a></echo>
+
+
+    </form>
+    </div>
+	
+</body>
+
+    
+</html>
