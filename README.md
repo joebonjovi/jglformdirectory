@@ -5,5 +5,5 @@
 ##Contributers
 - Joseph G Luca
 
-##Lisense & Copyright
-Lisensed under the [MIT LISENSE](LISENSE)
+##License & Copyright
+Lisensed under the [MIT LICENSE](LICENSE)
